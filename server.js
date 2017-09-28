@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Home Page',
     welcomeMessage: 'Welcome to Kendrick\'s first website!'
-  })
+  });
 });
 
 app.get('/projects', (req, res) => {
@@ -47,7 +47,7 @@ app.get('/projects', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
-    pageTitle: 'About Page',
+    pageTitle: 'About Page'
   })
 });
 
